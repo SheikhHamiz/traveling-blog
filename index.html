@@ -5,8 +5,6 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title> Travel Blog- Home</title>
       <link rel="stylesheet" href="./CSS/styles.css">
-      <link rel="stylesheet" href="./CSS/contact.css">
-      <link rel="stylesheet" href="./CSS/Destination.css">
    </head>
    <body>
       <header>
@@ -14,15 +12,23 @@
             <span><Strong>Travel Blog</Strong></span>
          </h1>
          <nav>
-            <div class="menu-icon">&#9776;</div>
-            <div class="menu">
-               <div><a href="#home">Home</a></div>
-               <div><a href="./Pages/blog.html">Blog</a></div>
-               <div><a href="./Pages/destination.html">Destination</a></div>
-               <div><a href="./Pages/contact.html">Contact</a></div>
-            </div>
-         </nav>
+            <ul>
+              <li>
+                <a class="logo-link" href="#home">Home</a>
+              </li>
+              <li>
+                <a class="logo-link" href="./pages/blog.html">Blog</a>
+              </li>
+              <li>
+                <a class="logo-link" href="./pages/destination.html">Destination</a>
+              </li>
+              <li>
+                <a class="logo-link" href="./pages/contact.html">Contact</a>
+              </li>
+            </ul>
+          </nav>
       </header>
+      <main>
       <section id="home">
          <br><br><br>
          <div class="hero">
@@ -43,55 +49,58 @@
             </div>
          </div>
       </section>
-      <section id="about">
-         <div class="container">
-            <h3>Crucial information to ensure a smooth and enjoyable journey.</h3>
-            <p>Equipping yourself with this crucial information is the key to ensure a smooth and enjoyable journey.
-            </p>
-            <article>
-              <div class="article-container">
-                  <figure class="text-center">
-                      <img class="img" src="./images/visa.jpg" alt="Destination">
-                      <figcaption><strong>Visa and Entry Requirements</strong></figcaption>
-                      <p>
-                        Before traveling to your destination, make sure to check the visa and entry requirements for your nationality. Some countries may require a visa or visa waiver, while others may have specific entry restrictions or entry fees. 
-                      </p>
-                  </figure>  
-              </div>
-              <div class="article-container">
-                  <figure class="text-center">
-                      <img class="img" src="./images/health.jpg" alt="Destination">
-                      <figcaption><strong>Health and Vaccination Information</strong><figcaption>
-                      <p>
-                        Health and safety are paramount when traveling. Before your trip, research any health advisories or vaccination requirements for your destination. Some countries may have specific health risks or require certain vaccinations for entry.
-                      </p>
-                  </figure>
-              </div>
-              <div class="article-container">
-                  <figure class="text-center">
-                      <img class="img" src="./images/currency.jpg" alt="Destination">
-                      <figcaption><strong>Local Currency and Payment Options</strong></figcaption>
-                      <p>
-                        Understanding the local currency and payment options is crucial to managing your finances while traveling. Research the local currency and familiarize yourself with the current exchange rate to your home currency. 
-                      </p>
-                  </figure>
-              </div>
-
-          </article>
-            <a href="./Pages/contact.html" class="cta-button">Get Started</a>
-         </div>
+      
+    <section class="second-section">
+        <h3>Crucial information to ensure a smooth and enjoyable journey.</h3>
+        <div class="container">
+          <figure class="cards">
+            <img src="./images/health.jpg" alt="health" />
+            <figcaption>Health and Vaccination Information
+            </figcaption>
+          </figure>
+          <figure class="cards">
+            <img src="./images/visa.jpg" alt="visa" />
+            <figcaption>Visa and Entry Requirements
+            </figcaption>
+          </figure>
+          <figure class="cards">
+            <img src="./images/itinerary.jpg" alt="currency" />
+            <figcaption>Itinerary and Planning
+            </figcaption>
+          </figure>
+          <figure class="cards">
+            <img src="./images/currency.jpg" alt="payment" />
+            <figcaption>Local Currency and Payment Options
+            </figcaption>
+          </figure>
+        </div>
       </section>
       <section >
          <div class="quote">
-            <h3>Quote</h3>
             <p>
-               " The world is a book, and those who do not travel read only one page. "
+               " The world is a book, and those who do not travel read only one page."
             </p>
+            <br>
             <p>
                <b>-Saint Augustine</b>
             </p>
          </div>
       </section>
+      <section class="fourth-section">
+        <div class="call-to-action">
+          <div>
+            <h3>Choose a destination!</h3>
+            <p>Make the best destination with us</p>
+          </div>
+          <a class="link-button" href="./pages/destination.html">
+            <button class="cta-button">
+              Get started
+            </button>
+          </a>
+        </div>
+      </section>
+    </main>
+  
       <footer>
          @Copyright
       </footer>
