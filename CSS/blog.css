@@ -82,9 +82,7 @@
   border: 5px solid yellowgreen;
 }
 .image2 {
-  height: fit-content;
-  width: fit-content;
-  margin: 10px;
+  height: 500px;
   padding: 10px;
 }
 .h2 {
