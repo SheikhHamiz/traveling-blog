@@ -82,7 +82,8 @@
   border: 5px solid yellowgreen;
 }
 .image2 {
-  height: 500px;
+  width: 500px;
+  margin-left:50%;
   padding: 10px;
 }
 .h2 {
