@@ -76,15 +76,12 @@
   display: flex;
   justify-content: center;
 }
-.but3 {
-  padding: 20px;
-  margin: 20px;
-  border: 5px solid yellowgreen;
-}
+
 .image2 {
   width: 500px;
   margin-left:50%;
   padding: 10px;
+  border: 5px solid yellowgreen;
 }
 .h2 {
   padding-left: 30px;
