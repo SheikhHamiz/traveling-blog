@@ -47,7 +47,6 @@ nav {
   flex-direction: row;
   justify-content: space-between;
   margin-bottom: 1rem;
-  margin-top:2rem;
 }
 .nav1-links {
   display: flex;
@@ -68,6 +67,7 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  margin-top: 1rem;
 }
 .moveable-box {
   display: flex;
