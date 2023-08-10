@@ -67,7 +67,7 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 .moveable-box {
   display: flex;
@@ -86,7 +86,7 @@ nav {
   margin-bottom: 50px;
 }
 main {
-  margin-top: 350px;
+  margin-top: 366px;
   padding: 2rem;
 }
 .image2 {
