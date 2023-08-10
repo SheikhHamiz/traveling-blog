@@ -27,16 +27,37 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 1rem;
 }
 .logo {
     font-size: 24px;
     color: #F9FAF8;
 }
 main {
-    margin-top: 50px;
+    margin-top: 70px;
 }
+.section-1 {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 3rem;
+}
+.section-1 h2 {
+    font-size: 48px;
+}
+.section-1 div {
+    width: 400px;
+}
+.section-1 p {
+    font-size: 20px;
+}
+.img-1 {
+    width: 480px;
+    height: 300px;
+    margin-bottom: 100px;
+} 
 .menu {
     display: flex;
     flex-direction: row;

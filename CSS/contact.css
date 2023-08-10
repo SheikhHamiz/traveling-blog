@@ -1,7 +1,19 @@
+main {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    background-color: #E5E7EB;
+    width: 500px;
+    border: 2px solid;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    margin-top: 100px;
+}
 form{
     display: flex;
     flex-direction: column;
-    align-items: center;
     margin-top: 16px;
     gap: 10px;
 }
@@ -31,12 +43,6 @@ input{
 }
 #btn-submit:hover {
     opacity: 0.8;
-}
-.footer{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
 }
 .footer-txt {
     padding-bottom: 16px;
